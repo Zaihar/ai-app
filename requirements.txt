@@ -1,1 +1,8 @@
-pip freeze > requirements.txt
+fastapi
+uvicorn
+streamlit
+psycopg2-binary
+python-dotenv
+langchain_ollama
+pydantic 
+requests
