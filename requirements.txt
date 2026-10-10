@@ -3,8 +3,6 @@ uvicorn
 streamlit
 psycopg2-binary
 python-dotenv
-langchain_ollama
 langchain-google-genai 
 pydantic 
 requests
-python-dotenv

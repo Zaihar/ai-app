@@ -2,7 +2,7 @@ import psycopg2
 
 def save_chat(question,answer):
     conn = psycopg2.connect(
-    host="localhost",
+    host="host.docker.internal",
     database="firstDB",
     user="postgres",
     password="sanjay@1232",
