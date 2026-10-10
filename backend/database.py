@@ -20,6 +20,6 @@ def save_chat(question,answer):
     """,
     (question,answer)
     )
-    conn.commi()
+    conn.commit()
     cursor.close()
     conn.close()        
